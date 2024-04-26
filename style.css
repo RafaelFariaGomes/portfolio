@@ -1,0 +1,75 @@
+*{
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: #505050;
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+}
+.divHeader{
+    display: flex;
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+}
+.divFoto{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    height: 50vh;
+    padding: 0;
+}
+.divContainerFalandoSobre{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 60vw; 
+    background-color: #0a0a0a;
+    border-radius: 2rem;
+    
+}
+.divSpanFalandoSobre{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 90vh;
+    margin: 1rem;
+}
+.spanFalandoSobre{
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+.spanNome{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+}
+.imageGit{
+    margin-left: 60vw;
+    width: 50px;
+    height: 50px;
+}
+.imageInsta{
+    width: 60px;
+    height: 60px;
+}
+.imageLinkedin{
+    width: 65px;
+    height: 65px;
+}
