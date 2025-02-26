@@ -61,9 +61,12 @@ body{
     margin-left: 2rem;
 }
 .imageGit{
-    margin-left: 60vw;
-    width: 50px;
-    height: 50px;
+
+    width: 2.8vw;
+    height: 5vh;
+    /* background-color: yellow; */
+    margin-top: 1.2vh;
+    margin-left: 1vw;
 }
 .imageInsta{
     width: 60px;
@@ -72,6 +75,10 @@ body{
 .imageLinkedin{
     width: 65px;
     height: 65px;
+}
+.minhaFoto{
+    height: 20vh;
+    width: 10vw;
 }
 a{
     width: 65px;
